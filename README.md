@@ -13,7 +13,7 @@ int main()
   pritf("\n Reading CPU_BURST.TXT file\n ");
   while((getc(fp))!=EOF)
   {
-    fscanf(fp,"%d",$bt[i]);
+    fscanf(fp,"%d",&bt[i]);
     if(bt[i]>0)
     {
       p[i]=i+1;
